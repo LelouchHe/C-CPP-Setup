@@ -5,6 +5,9 @@ using namespace std;
 
 int main() {
   int i = 0;
-  std::cout << "hello world" << std::endl;
+  std::cout << "hello worlddddddddddddddddddddddddddddddddddddddddddddddddd"
+            << std::endl;
+  std::vector<int> v = {};
+  v.push_back(i);
   return 0;
 }
