@@ -7,10 +7,11 @@ Some of import features that're planned:
 * Most C-style grammars
 * No pointer
 * Simple class/interface
-* Strong-typed, static types
+* Strong-typed, static-typed
 * Closure
 * GC
 * async/await
+* Generic
 * Module
 * Can be used as a C library
 * Can use C/C++ library
