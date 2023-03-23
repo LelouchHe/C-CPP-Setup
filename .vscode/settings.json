@@ -1,0 +1,35 @@
+{
+  "Lua.workspace.library": [
+    "C:/Users/$YOUR_USER_NAME/AppData/Roaming/Code/User/globalStorage/sumneko.lua/addonManager/addons/xmake/module/library"
+  ],
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.workspace.checkThirdParty": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.rulers": [
+    80
+  ],
+  "files.eol": "\n",
+  "editor.wordWrap": "on",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.watcherExclude": {
+    "**/build*/**": true,
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "task.autoDetect": "off",
+  "clangd.arguments": [
+    "--header-insertion=never",
+    "--background-index",
+    "--compile-commands-dir=.vscode/",
+    "--clang-tidy",
+    "-j=12",
+    "--pch-storage=memory"
+  ]
+}
