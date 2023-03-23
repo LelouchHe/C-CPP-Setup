@@ -3,6 +3,9 @@
     "C:/Users/$YOUR_USER_NAME/AppData/Roaming/Code/User/globalStorage/sumneko.lua/addonManager/addons/xmake/module/library"
   ],
   "Lua.runtime.version": "LuaJIT",
+  "files.associations": {
+    "xmake.lua": "lua"
+  },
   "Lua.workspace.checkThirdParty": false,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
