@@ -32,7 +32,7 @@
   "clangd.arguments": [
     "--header-insertion=never",
     "--background-index",
-    "--compile-commands-dir=.vscode/",
+    "--compile-commands-dir=${workspaceFolder}/.vscode/",
     "--clang-tidy",
     "-j=12",
     "--pch-storage=memory"
