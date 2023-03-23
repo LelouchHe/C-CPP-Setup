@@ -1,5 +1,5 @@
 add_rules("mode.debug", "mode.release")
 
-target("mcl")
+target("main")
   set_kind("binary")
   add_files("src/*.cc")
