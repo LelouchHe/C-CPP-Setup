@@ -3,6 +3,7 @@
 This is a template repo for C/C++ development with VSCode + Xmake
 
 [VSCode download](https://code.visualstudio.com/download)
+
 [Xmake installation](https://xmake.io/#/guide/installation)
 
 Build tools, like compiler and system library, are required to be installed separately.
