@@ -1,4 +1,3 @@
-#include <stdint.h>
 #include <iostream>
 #include <vector>
 
@@ -6,6 +5,8 @@ using namespace std;
 
 void hello(int j) {
   int i = 0;
+  std::string shel;
+  std::unique_ptr<int> p;
 }
 
 int main() {
