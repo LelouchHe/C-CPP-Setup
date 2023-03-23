@@ -1,20 +1,11 @@
-## MCL
+## C/C++ Setup
 
-MCL, my C language, is a toy script language that looks a lot like C but also includes some modern features like other script languages.
+This is a template repo for C/C++ development with VSCode + Xmake
 
-Some of import features that're planned:
+It includes:
 
-* Most C-style grammars
-* No pointer
-* Simple class/interface
-* Strong-typed, static-typed
-* Closure
-* GC
-* async/await
-* Generic
-* Module
-* Can be used as a C library
-* Can use C/C++ library
-* etc.
+1. VSCode settings
+2. Xmake setup
+3. clang-format/clang-tidy
 
-Let's see what we can get at the end.
+Buildtools, like compiler and system library, are still required to be installed first.
