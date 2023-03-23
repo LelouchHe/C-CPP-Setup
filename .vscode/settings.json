@@ -1,12 +1,14 @@
 {
-  "Lua.workspace.library": [
-    "C:/Users/$YOUR_USER_NAME/AppData/Roaming/Code/User/globalStorage/sumneko.lua/addonManager/addons/xmake/module/library"
-  ],
-  "Lua.runtime.version": "LuaJIT",
+  // Lua settings will be updated once Xmake addon is enabled
+  // "Lua.workspace.library": [
+  //   "C:/Users/$YOUR_USER_NAME/AppData/Roaming/Code/User/globalStorage/sumneko.lua/addonManager/addons/xmake/module/library"
+  // ],
+  // "Lua.runtime.version": "LuaJIT",
+  // "Lua.workspace.checkThirdParty": false,
   "files.associations": {
     "xmake.lua": "lua"
   },
-  "Lua.workspace.checkThirdParty": false,
+
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.rulers": [
