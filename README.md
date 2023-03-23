@@ -22,3 +22,5 @@ VSCode extensions used are:
   * Xmake addon need to be enabled, it will replace the "Lua" settings in settings.json
 5. [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
   * Highlight warning/error messages
+
+If you don't want your .vscode/settings.json tracked, run `git rm --cached .vscode/settings.json` once you clone this repo
