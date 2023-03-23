@@ -17,3 +17,4 @@ VSCode extensions used are:
   * Help build/debug/config Xmake
 4. [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
   * Xmake build config intellisense
+  * Xmake addon need to be enabled, it will replace the "Lua" settings in settings.json
