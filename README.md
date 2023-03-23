@@ -19,3 +19,5 @@ VSCode extensions used are:
 4. [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
   * Xmake build config intellisense
   * Xmake addon need to be enabled, it will replace the "Lua" settings in settings.json
+5. [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+  * Highlight warning/error messages
