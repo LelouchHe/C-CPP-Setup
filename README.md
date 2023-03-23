@@ -11,7 +11,8 @@ Build tools, like compiler and system library, are required to be installed sepa
 VSCode extensions used are:
 
 1. [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
-  * Basic C/C++ setup
+  * Debug
+  * This is only necessary if you're using MSVC. Otherwise, use [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 2. [clangd](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd)
   * Intellisense, clang-format, clang-tidy
 3. [Xmake](https://marketplace.visualstudio.com/items?itemName=tboox.xmake-vscode)
