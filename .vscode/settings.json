@@ -5,6 +5,7 @@
   // ],
   // "Lua.runtime.version": "LuaJIT",
   // "Lua.workspace.checkThirdParty": false,
+  "Lua.format.enable": false,
   "files.associations": {
     "xmake.lua": "lua"
   },
