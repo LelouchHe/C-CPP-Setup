@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "debugArgs",
+      "description": "Args for Debug",
+      "default": ""
+    },
+    {
+      "type": "promptString",
+      "id": "gtestFilter",
+      "description": "Filter for UnitTests",
+      "default": "*"
+    },
+  ],
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "xmake",
+      "request": "launch",
+      // use target from xmake status
+      "target": "",
+      "args": [
+        // "${input:debugArgs}",
+        // "--gtest_filter=${input:gtestFilter}",
+        "--gtest_filter=ManualLexerTest.MultiLinesComment",
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "terminal": "console",
+    },
+  ]
+}
